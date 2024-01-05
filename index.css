@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.item {
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid white;
+  display: grid;
+  color: black;
+  font-family: "Fira Code", monospace;
+  font-size: 1.2rem;
+}
+
+.assignment-heading {
+  font-size: 1.4rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.problem-statement {
+  justify-self: center;
+  align-self: center;
+  background-color: #8b4edc;
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.assignment-code {
+  justify-self: center;
+  align-self: center;
+  background-color: #99d82d;
+  padding: 7px;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.assignment-output {
+  justify-self: center;
+  align-self: center;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #092635;
+  border: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+}
