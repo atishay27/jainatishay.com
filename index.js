@@ -6,10 +6,16 @@ const assignments = [
     output: "assignment1/index.html",
   },
   {
-    heading: "Assignment - Class 2 & 3",
+    heading: "Assignment - Class 3 & 4",
     problemStatement: "/assets/PS2.jpg",
     code: "https://github.com/atishay27/GFG-FSRNL/tree/assignment2-complete",
     output: "assignment2/index.html",
+  },
+  {
+    heading: "Assignment - Class 5",
+    problemStatement: "/assets/PS3.jpg",
+    code: "https://github.com/atishay27/GFG-FSRNL/tree/assignment3-part1",
+    output: "assignment3/index.html",
   },
 ];
 

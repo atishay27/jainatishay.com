@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StatShop.com - Registration</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./registration.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar navbar-grid">
+        <div class="company">
+          <img id="logo-image" src="./assets/newlogo.png" alt="logo" />
+          <h1 class="company-name">StatShop</h1>
+        </div>
+        <ul class="nav-menu">
+          <li class="menu-item">
+            <a href="./index.html" class="menu-link">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="./products.html" class="menu-link">Products</a>
+          </li>
+          <li class="menu-item">
+            <a href="./registration.html" class="menu-link">Registration</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <form class="registration-form">
+          <h1 class="form-caption">Registration Form</h1>
+          <hr class="ruler" />
+
+          <label for="user-email" class="label-item">Email: </label>
+          <input
+            id="user-email"
+            type="email"
+            class="input-item"
+            required
+            placeholder="Enter Your Valid Email-ID"
+          />
+          <hr class="ruler" />
+          <label for="user-fname" class="label-item">First Name: </label>
+          <input
+            id="user-fname"
+            type="text"
+            class="input-item"
+            required
+            placeholder="Enter Your First Name"
+          />
+          <hr class="ruler" />
+
+          <label for="user-lname" class="label-item">Last Name: </label>
+          <input
+            id="user-lname"
+            type="text"
+            class="input-item"
+            required
+            placeholder="Enter Your Last Name"
+          />
+          <hr class="ruler" />
+
+          <label for="user-password" class="label-item">Password</label>
+          <input
+            id="user-password"
+            type="password"
+            class="input-item"
+            required
+            placeholder="Enter Your Password"
+          />
+          <hr class="ruler" />
+
+          <label for="user-confirm-password" class="label-item"
+            >Confirm Password</label
+          >
+          <input
+            id="user-confirm-password"
+            type="password"
+            class="input-item"
+            required
+            placeholder="Confrim Your Password"
+          />
+          <hr class="ruler" />
+
+          <button
+            id="registration-form-submit-btn"
+            type="submit"
+            class="submit-btn"
+          >
+            Register
+          </button>
+        </form>
+      </div>
+      <div class="footer">
+        <p class="footer-style">
+          © Copyright 2023 StatShop Pvt Ltd. All rights reserved
+        </p>
+      </div>
+    </div>
+    <script src="./registration.js"></script>
+  </body>
+</html>
