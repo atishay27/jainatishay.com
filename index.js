@@ -17,6 +17,12 @@ const assignments = [
     code: "https://github.com/atishay27/GFG-FSRNL/tree/assignment3-part1",
     output: "assignment3/index.html",
   },
+  {
+    heading: "Assignment - Class 6",
+    problemStatement: "/assets/PS4.jpg",
+    code: "https://github.com/atishay27/GFG-React-Project/tree/class6",
+    output: "https://atishay-jain-gfg-class6.netlify.app",
+  },
 ];
 
 function createAssignmentDiv(assignment) {
